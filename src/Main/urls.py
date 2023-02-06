@@ -7,9 +7,7 @@ from Main.view import DatabaseHealthCheckAPI, HealthCheckAPI
 
 
 v1_api_patterns=[
-    # path('company/', include('company.urls')),
-    # path('employees/', include('employees.urls')),
-    # path('assets/', include('assets.urls')),
+    path('user/', include('user.urls')),
     
 ]
 
